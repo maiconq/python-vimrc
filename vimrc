@@ -46,7 +46,6 @@ call vundle#begin()
     "-------------------=== Languages support ===-------------------
     Plugin 'tpope/vim-commentary'               " Comment stuff out
     Plugin 'mitsuhiko/vim-sparkup'              " Sparkup(XML/jinja/htlm-django/etc.) support
-    Plugin 'Rykka/riv.vim'                      " ReStructuredText plugin
     Plugin 'Valloric/YouCompleteMe'             " Autocomplete plugin
 
     "-------------------=== Python  ===-----------------------------
@@ -141,11 +140,6 @@ nmap " :NERDTreeToggle<CR>
 "=====================================================
 let g:snippets_dir='~/.vim/vim-snippets/snippets'
 let g:snipMate = {'snippet_version' : 1}
-
-"=====================================================
-"" Riv.vim settings
-"=====================================================
-let g:riv_disable_folding=0
 
 "=====================================================
 "" Python settings
