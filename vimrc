@@ -145,7 +145,7 @@ let g:snipMate = {'snippet_version' : 1}
 "=====================================================
 "" Riv.vim settings
 "=====================================================
-let g:riv_disable_folding=1
+let g:riv_disable_folding=0
 
 "=====================================================
 "" Python settings
